@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="34" viewBox="0 0 128 34" role="img" aria-label="GitHub">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#F8FAFC"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#06B6D4"/><stop offset=".55" stop-color="#2563EB"/><stop offset="1" stop-color="#10B981"/></linearGradient>
+    <filter id="glow" x="-30%" y="-80%" width="160%" height="260%"><feGaussianBlur stdDeviation="1.1" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <path d="M1 1H119L127 9V33H9L1 25Z" fill="url(#bg)" stroke="url(#edge)" stroke-opacity=".42"><animate attributeName="stroke-opacity" values=".3;.68;.3" dur="4.8s" repeatCount="indefinite"/></path>
+  <path d="M9 3H103" stroke="#06B6D4" stroke-opacity=".18"/>
+  <circle cx="15" cy="17" r="2.5" fill="#06B6D4" filter="url(#glow)"><animate attributeName="opacity" values=".5;1;.5" dur="2.4s" repeatCount="indefinite"/></circle>
+  <text x="27" y="21" fill="#334155" font-family="Consolas,Menlo,monospace" font-size="10" font-weight="600" letter-spacing="1.25">GITHUB</text>
+  <path d="M-24 31H18" stroke="url(#edge)" stroke-width="1.5" filter="url(#glow)"><animate attributeName="d" values="M-24 31H18;M110 31H152" dur="3.8s" repeatCount="indefinite"/></path>
+</svg>
